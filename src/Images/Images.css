@@ -9,3 +9,9 @@
     height: 600px;
     border: solid;
 }
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
