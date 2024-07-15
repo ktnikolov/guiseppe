@@ -1,0 +1,11 @@
+.desktop {
+    width: 700px;
+    height: auto;
+    border: solid;
+}
+
+.phone {
+    width: auto;
+    height: 600px;
+    border: solid;
+}

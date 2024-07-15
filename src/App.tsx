@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Desktop from './Images/Desktop';
+import Phone from './Images/Phone';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Welcome Friend!</h1>
+        <h3>Download your Guiseppe Land image below </h3>
       </header>
+      <div className="Testing" style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
+        <Desktop/>
+        <Phone/>
+      </div>
     </div>
   );
 }
